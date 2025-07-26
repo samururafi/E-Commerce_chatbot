@@ -1,7 +1,7 @@
-###########################################################
-# 🛍️ StyleBot — E-commerce Customer Support Chatbot
+
+# 🛍️ ChartBot — E-commerce Customer Support Chatbot
 # AI-powered chatbot for e-commerce clothing websites
-###########################################################
+
 
 📦 FEATURES:
 ------------
