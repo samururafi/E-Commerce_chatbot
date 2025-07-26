@@ -1,0 +1,194 @@
+[
+  {
+    "id": "12345",
+    "customerId": "cust_001",
+    "customerName": "John Doe",
+    "customerEmail": "john.doe@email.com",
+    "orderDate": "2024-07-20T10:30:00Z",
+    "status": "shipped",
+    "trackingNumber": "TRK123456789",
+    "estimatedDelivery": "2024-07-28T18:00:00Z",
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "items": [
+      {
+        "productId": "1",
+        "productName": "Classic T-Shirt",
+        "quantity": 2,
+        "price": 29.99,
+        "size": "M",
+        "color": "Black"
+      },
+      {
+        "productId": "4",
+        "productName": "Hoodie Sweatshirt",
+        "quantity": 1,
+        "price": 49.99,
+        "size": "L",
+        "color": "Gray"
+      }
+    ],
+    "subtotal": 109.97,
+    "shipping": 9.99,
+    "tax": 8.80,
+    "total": 128.76,
+    "paymentMethod": "Credit Card",
+    "paymentStatus": "paid"
+  },
+  {
+    "id": "12346",
+    "customerId": "cust_002",
+    "customerName": "Jane Smith",
+    "customerEmail": "jane.smith@email.com",
+    "orderDate": "2024-07-22T14:15:00Z",
+    "status": "processing",
+    "trackingNumber": null,
+    "estimatedDelivery": "2024-07-30T18:00:00Z",
+    "shippingAddress": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "items": [
+      {
+        "productId": "3",
+        "productName": "Summer Dress",
+        "quantity": 1,
+        "price": 59.99,
+        "size": "S",
+        "color": "Floral"
+      },
+      {
+        "productId": "5",
+        "productName": "Running Shoes",
+        "quantity": 1,
+        "price": 89.99,
+        "size": "8",
+        "color": "Black/White"
+      }
+    ],
+    "subtotal": 149.98,
+    "shipping": 12.99,
+    "tax": 13.05,
+    "total": 176.02,
+    "paymentMethod": "PayPal",
+    "paymentStatus": "paid"
+  },
+  {
+    "id": "12347",
+    "customerId": "cust_003",
+    "customerName": "Mike Johnson",
+    "customerEmail": "mike.johnson@email.com",
+    "orderDate": "2024-07-25T09:45:00Z",
+    "status": "delivered",
+    "trackingNumber": "TRK987654321",
+    "estimatedDelivery": "2024-07-26T16:00:00Z",
+    "deliveredDate": "2024-07-26T15:30:00Z",
+    "shippingAddress": {
+      "street": "789 Pine St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "items": [
+      {
+        "productId": "2",
+        "productName": "Denim Jeans",
+        "quantity": 1,
+        "price": 79.99,
+        "size": "32",
+        "color": "Blue"
+      }
+    ],
+    "subtotal": 79.99,
+    "shipping": 7.99,
+    "tax": 7.04,
+    "total": 95.02,
+    "paymentMethod": "Credit Card",
+    "paymentStatus": "paid"
+  },
+  {
+    "id": "12348",
+    "customerId": "cust_004",
+    "customerName": "Sarah Wilson",
+    "customerEmail": "sarah.wilson@email.com",
+    "orderDate": "2024-07-26T11:20:00Z",
+    "status": "pending",
+    "trackingNumber": null,
+    "estimatedDelivery": "2024-08-02T18:00:00Z",
+    "shippingAddress": {
+      "street": "321 Elm St",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "items": [
+      {
+        "productId": "6",
+        "productName": "Leather Jacket",
+        "quantity": 1,
+        "price": 199.99,
+        "size": "M",
+        "color": "Black"
+      },
+      {
+        "productId": "8",
+        "productName": "Yoga Pants",
+        "quantity": 2,
+        "price": 44.99,
+        "size": "S",
+        "color": "Black"
+      }
+    ],
+    "subtotal": 289.97,
+    "shipping": 15.99,
+    "tax": 24.48,
+    "total": 330.44,
+    "paymentMethod": "Credit Card",
+    "paymentStatus": "pending"
+  },
+  {
+    "id": "12349",
+    "customerId": "cust_005",
+    "customerName": "David Brown",
+    "customerEmail": "david.brown@email.com",
+    "orderDate": "2024-07-24T16:30:00Z",
+    "status": "cancelled",
+    "trackingNumber": null,
+    "estimatedDelivery": null,
+    "cancelledDate": "2024-07-25T10:00:00Z",
+    "cancelReason": "Customer requested cancellation",
+    "shippingAddress": {
+      "street": "654 Maple Ave",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA"
+    },
+    "items": [
+      {
+        "productId": "9",
+        "productName": "Winter Coat",
+        "quantity": 1,
+        "price": 149.99,
+        "size": "L",
+        "color": "Navy"
+      }
+    ],
+    "subtotal": 149.99,
+    "shipping": 10.99,
+    "tax": 12.88,
+    "total": 173.86,
+    "paymentMethod": "Credit Card",
+    "paymentStatus": "refunded"
+  }
+]
